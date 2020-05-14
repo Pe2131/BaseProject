@@ -1,0 +1,83 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\big5-added.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\cp936.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\cp949.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\cp950.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\eucjp.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\gb18030-ranges.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\gbk-added.json" />
+    <Content Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\tables\shiftjis.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\AdminPanel\Data\" />
+    <Folder Include="Areas\AdminPanel\Models\" />
+    <Folder Include="wwwroot\Admin\assets\libs\alertifyjs\src\" />
+    <Folder Include="wwwroot\Admin\assets\libs\bootstrap-daterangepicker\example\" />
+    <Folder Include="wwwroot\Admin\assets\libs\bootstrap-maxlength\src\" />
+    <Folder Include="wwwroot\Admin\assets\libs\bootstrap-maxlength\test\" />
+    <Folder Include="wwwroot\Admin\assets\libs\chartist\scss\settings\" />
+    <Folder Include="wwwroot\Admin\assets\libs\flot-charts\examples\" />
+    <Folder Include="wwwroot\Admin\assets\libs\flot-orderbars\examples\" />
+    <Folder Include="wwwroot\Admin\assets\libs\gmaps\docs\" />
+    <Folder Include="wwwroot\Admin\assets\libs\gmaps\examples\" />
+    <Folder Include="wwwroot\Admin\assets\libs\gmaps\test\" />
+    <Folder Include="wwwroot\Admin\assets\libs\ion-rangeslider\less\skins\" />
+    <Folder Include="wwwroot\Admin\assets\libs\jquery-sparkline\src\" />
+    <Folder Include="wwwroot\Admin\assets\libs\jquery.flot.tooltip\examples\" />
+    <Folder Include="wwwroot\Admin\assets\libs\moment\src\" />
+    <Folder Include="wwwroot\Admin\assets\libs\morris.js\examples\" />
+    <Folder Include="wwwroot\Admin\assets\libs\morris.js\less\" />
+    <Folder Include="wwwroot\Admin\assets\libs\morris.js\lib\" />
+    <Folder Include="wwwroot\Admin\assets\libs\morris.js\spec\" />
+    <Folder Include="wwwroot\Admin\assets\libs\pdfmake\src\" />
+    <Folder Include="wwwroot\Admin\assets\libs\raphael\dev\test\" />
+    <Folder Include="wwwroot\Admin\assets\libs\selectize\less\plugins\" />
+    <Folder Include="wwwroot\Admin\assets\libs\spectrum-colorpicker\build\" />
+    <Folder Include="wwwroot\Admin\assets\libs\spectrum-colorpicker\docs\" />
+    <Folder Include="wwwroot\Admin\assets\libs\spectrum-colorpicker\example\" />
+    <Folder Include="wwwroot\Admin\assets\libs\spectrum-colorpicker\test\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\dbcs-codec.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\dbcs-data.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\index.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\internal.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\sbcs-codec.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\sbcs-data-generated.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\sbcs-data.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\utf16.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\utf32.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\encodings\utf7.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\lib\bom-handling.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\lib\extend-node.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\lib\index.js" />
+    <None Include="wwwroot\Admin\assets\libs\pdfmake\node_modules\iconv-lite\lib\streams.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
